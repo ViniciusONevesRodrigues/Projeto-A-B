@@ -15,10 +15,10 @@ Este guia explica como testar duas versões diferentes do projeto Node.js. Vamos
 `npm install` e `npm start`
 
 Versão A:
-![Versão A](Versão A.png)
+![Versão A](Versão_A.png)
 
 Versão B:
-![Versão B](Versão B.png)
+![Versão B](Versão_B.png)
 
 
 
