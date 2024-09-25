@@ -1,0 +1,16 @@
+.aside {
+    padding: 20px;
+    background-color: #000;
+    border: 5px solid #4A90E2;
+    grid-column: 1;
+    color: white;
+}
+
+.aside a {
+    color: white;
+    text-decoration: none; 
+}
+
+.aside a:visited {
+    color: #4A90E2; 
+}
