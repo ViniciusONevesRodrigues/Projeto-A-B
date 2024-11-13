@@ -6,7 +6,7 @@ import Aside from './components/Aside';
 import Footer from './components/Footer';
 import Clarity from '@microsoft/clarity';
 
-Clarity.init('oy47toq6hv');
+Clarity.init('oy57ha884g');
 
 function App() {
   return (
