@@ -4,12 +4,9 @@ import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Aside from './components/Aside';
 import Footer from './components/Footer';
-import Hotjar from '@hotjar/browser';
+import { clarity } from 'react-microsoft-clarity';
 
-const siteId = 5165566;
-const hotjarVersion = 6;
-
-Hotjar.init(siteId, hotjarVersion);
+if (process.env.NODE_ENV === 'production') clarity.init('oy2xoen3fo');
 
 function App() {
   return (
