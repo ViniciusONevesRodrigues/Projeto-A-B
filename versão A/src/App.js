@@ -6,7 +6,7 @@ import Aside from './components/Aside';
 import Footer from './components/Footer';
 import { clarity } from 'react-microsoft-clarity';
 
-if (process.env.NODE_ENV === 'production') clarity.init('oy2xoen3fo');
+clarity.init('oy2xoen3fo');
 
 function App() {
   return (
