@@ -4,9 +4,9 @@ import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Aside from './components/Aside';
 import Footer from './components/Footer';
-import { clarity } from 'react-microsoft-clarity';
+import Clarity from '@microsoft/clarity';
 
-clarity.init('oy2xoen3fo');
+Clarity.init('oy2xoen3fo');
 
 function App() {
   return (
